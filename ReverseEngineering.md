@@ -158,5 +158,5 @@ From this it can be said that `77-A` stored at `sp + 28` is the return value of 
 
 Now in order for `77-A` to be `0`, `A` needs to be `77` and thus the argument will be `77` in hexadecimal, i.e., `0000004D`.
 
-Thus the flag will be `picoCTF{0000004D`.
+Thus the flag will be `picoCTF{0000004D}`.
 
