@@ -78,6 +78,8 @@ main:
 
 `.file	"chall_1.c"` means that the challenge was made in `c` and instead of compliing, it was assembled in this assembly language.
 
+`bl atoi`(ASCII to integer) is used to convert a string into an integer.
+
 ```
 sub	sp, sp, #32
 ```
