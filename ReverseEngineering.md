@@ -98,7 +98,9 @@ Now the values 58, 2, 3 are loaded in registers.
 	str	w0, [sp, 24]
 ```
 58 is stored at `sp + 16`
+
 2 is stored at `sp + 20`
+
 3 is stored at `sp + 24`
 
 ```
