@@ -88,7 +88,7 @@ str	w0, [sp, 12]
 ```
 This, thus, stores the value of the main function argument `A` into the memory location 12 bytes below the current stack pointer, or, at `sp+12`.
 
-Now the values 58, 2, 3 are loaded in registers. 
+Now the values 58, 2, 3 are loaded in the `w0` register, where 58 is stored at `sp + 16`, 2 is stored at `sp + 20` and 3 is stored at `sp + 24`.
 ```
 	mov	w0, 58
 	str	w0, [sp, 16]
@@ -97,11 +97,7 @@ Now the values 58, 2, 3 are loaded in registers.
 	mov	w0, 3
 	str	w0, [sp, 24]
 ```
-58 is stored at `sp + 16`
 
-2 is stored at `sp + 20`
-
-3 is stored at `sp + 24`
 
 ```
         ldr	w0, [sp, 20]
