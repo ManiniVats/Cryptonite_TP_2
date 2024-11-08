@@ -104,7 +104,7 @@ Now the values 58, 2, 3 are loaded in registers.
 3 is stored at `sp + 24`
 
 ```
-  ldr	w0, [sp, 20]
+        ldr	w0, [sp, 20]
 	ldr	w1, [sp, 16]
 	lsl	w0, w1, w0
 	str	w0, [sp, 28]
@@ -154,7 +154,7 @@ If it is `0`, it prints `You win!`, whereas if not, it prints `You Lose :("`.
 	add	sp, sp, 32
 	ret
 ```
-From this it can be said that `77-A` stored at `sp + 28` is the return value of `func`
+From this it can be said that `77-A` stored at `sp + 28` is the return value of `func`.
 
 Now in order for `77-A` to be `0`, `A` needs to be `77` and thus the argument will be `77` in hexadecimal, i.e., `0000004D`.
 
